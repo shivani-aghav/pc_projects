@@ -1,0 +1,21 @@
+import java.util.Arrays;
+
+public class MoveZeroesToEnd {
+
+	public static void main(String[] args) {
+		int[] s = { 12, 0, 7, 0, 8, 0, 3 };
+		int tmp = 0;
+
+		for (int i = 0; i < s.length; i++) {
+			if (s[i]!= 0) {
+			s[tmp]=s[i];
+			tmp++;
+			}
+		}
+		if (tmp<s.length) {
+			s[tmp]=0;
+			tmp--;
+		}
+		System.out.println(Arrays.toString(s));
+	}
+}

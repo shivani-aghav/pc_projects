@@ -1,0 +1,30 @@
+package thread;
+
+public class UsingRunnable implements Runnable{
+
+	final Object obj=new Object();
+	@Override
+	public void run() {
+		   try {
+			obj.wait();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+			System.out.println("using runnable is running");
+		
+	}
+	
+	Runnable runnable=() -> obj.notify();
+	
+	
+	public static void main(String[] args) {
+		UsingRunnable runnable = new UsingRunnable();
+		UsingRunnable runnable1 = new UsingRunnable();
+		Thread thread = new Thread(runnable1);
+		Thread thread1 = new Thread(runnable);
+		thread.start();
+		
+		}
+
+}

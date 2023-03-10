@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;hibernate_mock/src/main/resources/services/SimpleService/META-INF/services.xml&apos; to &apos;persistence.xml&apos;" description="Rename resource &apos;services.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/services/SimpleService/META-INF/services.xml" name="persistence.xml" stamp="1674044202724" updateReferences="true"/>
+</session>

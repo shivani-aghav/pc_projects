@@ -1,0 +1,10 @@
+package string_concepts.mystring1;
+
+public class Concept1 {
+
+	public static void main(String[] args) {
+		String st=" ";
+		System.out.println(st.isBlank());//true
+		System.out.println(st.isEmpty());//false
+	}
+}

@@ -1,0 +1,12 @@
+package basicprograms.revision;
+
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+
+		Stream.generate(() -> "pariii").forEach(System.out::println);
+	}
+}

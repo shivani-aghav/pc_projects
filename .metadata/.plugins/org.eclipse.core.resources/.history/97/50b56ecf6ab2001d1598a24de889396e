@@ -1,0 +1,12 @@
+package basicprograms.revision;
+
+import java.util.stream.Stream;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+
+//		Stream.iterate(5, a->a*a).limit(5).forEach(System.out::println);
+		Stream.builder().add(10).add(20).build().forEach(System.out::println);
+	}
+}

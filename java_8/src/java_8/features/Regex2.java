@@ -1,0 +1,24 @@
+package java_8.features;
+
+import java.text.DecimalFormat;
+
+public class Regex2 {
+
+public static void main(String[] args) {
+       double payment = 12324.134;
+       
+       java.util.Currency cur = java.util.Currency.getInstance("USD");  
+       java.util.Currency c=java.util.Currency.getInstance("EUR");
+//       java.util.Currency c1=java.util.Currency.getInstance("YEN");
+       String symbol = cur.getSymbol();  
+       DecimalFormat format = new DecimalFormat("#,###.##");
+       String us= format.format(payment);//to get 2 points aft decimal
+       
+       System.out.println("US: "+symbol + us);
+       System.out.println("India: Rs." + us);
+//       System.out.println("China: "+c1.getSymbol() + us);
+       String replace = us.replace(",", " ");
+       String replace2 = replace.replace(".", ",");
+       System.out.println("France: "+replace2+c.getSymbol());
+}
+}

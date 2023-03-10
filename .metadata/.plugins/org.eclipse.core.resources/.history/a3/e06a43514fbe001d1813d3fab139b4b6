@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.stream.Collectors;
+
+public class NewArray {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> al = new ArrayList<>();
+		al.add(2);al.add(2);al.add(2);al.add(3);al.add(4);al.add(4);al.add(7);al.add(7);al.add(8);
+       
+        al.stream().collect(Collectors.groupingBy(t -> t)).entrySet().forEach(t -> {
+        	if (t.getValue().size()==2) {
+				if (t.getValue().equals(t.getValue())) {
+					System.out.println(t.getKey());
+				}
+			}
+        });
+        
+	}
+}

@@ -1,0 +1,17 @@
+package thread;
+
+public class UsingRunnable implements Runnable{
+
+	@Override
+	public void run() {
+		System.out.println("run method of thread");
+	}
+	
+	public static void main(String[] args) {
+		UsingRunnable runnable = new UsingRunnable();
+		Thread thread = new Thread(runnable);
+		thread.start();
+		
+		}
+
+}

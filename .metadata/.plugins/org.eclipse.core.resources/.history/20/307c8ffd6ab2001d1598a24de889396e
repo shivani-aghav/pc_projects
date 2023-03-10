@@ -1,0 +1,68 @@
+package basicprograms.revision;
+
+import java.util.List;
+
+public class Employee {
+
+	private int id;
+	private String name;
+	private long salary;
+	private String mail;
+	private List<String> movies;
+
+	public Employee(int id, String name, long salary, String mail, List<String> movies) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+		this.mail = mail;
+		this.movies = movies;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", mail=" + mail + ", movies=" + movies
+				+ "]";
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public long getSalary() {
+		return salary;
+	}
+
+	public void setSalary(long salary) {
+		this.salary = salary;
+	}
+
+	public String getMail() {
+		return mail;
+	}
+
+	public void setMail(String mail) {
+		this.mail = mail;
+	}
+
+	public List<String> getMovies() {
+		return movies;
+	}
+
+	public void setMovies(List<String> movies) {
+		this.movies = movies;
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;new-jasper-report-mmcart&apos;" deleteContents="true" description="Delete resource &apos;new-jasper-report-mmcart&apos;" element1="/new-jasper-report-mmcart" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1677151492751"/>
+</session>

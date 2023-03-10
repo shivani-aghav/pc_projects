@@ -1,0 +1,18 @@
+package basicprograms.revision;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+//		Arrays.asList("Marco","Daisy","Michael","Sanya","Robin").stream().map(a->a.toUpperCase()).collect(Collectors.toList()).forEach(System.out::println);;
+		
+		List<String> list = Arrays.asList("Marco","Daisy");
+		List<String> list2 = Arrays.asList("Sanya","Robin");
+		List<String> list3 = Arrays.asList("Carol","pioki");
+		Arrays.asList(list,list2,list3).stream().flatMap(t -> t.stream()).forEach(System.out::println);
+	}
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\Shivani\TechnoElevate\Eclipse2\java_8"/>
+			<item value="D:\Shivani\TechnoElevate\Eclipse2\hibernate_mock\src\main\resources\services\SimpleService\META-INF\persistence.xml"/>
+			<item value="D:\Shivani\TechnoElevate\Eclipse2\hibernate"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.te.hibernate"/>
+			<item value="com.te.mock_springmvc"/>
+			<item value="com.te.hibernate_mock"/>
+			<item value="com.te.mock_hibernate"/>
+		</list>
+		<list key="groupId">
+			<item value="com.te"/>
+		</list>
+		<list key="artifactId">
+			<item value="hibernate"/>
+			<item value="mock_springmvc"/>
+			<item value="hibernate_mock"/>
+			<item value="mock_hibernate"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\anils\Downloads\mmcart_jasper (1)"/>
+			<item value="C:\Users\anils\Downloads\mmcart_jasper_reeport"/>
+			<item value="C:\Users\anils\Downloads\mmcart_jasper"/>
+			<item value="C:\Users\anils\Downloads\Array2.0"/>
+			<item value="C:\Users\anils\Downloads\Employee"/>
+			<item value="C:\Users\anils\Downloads\demojdbc"/>
+			<item value="D:\pharmacy-management-system-project-in-spring"/>
+			<item value="C:\Users\anils\Downloads\employeemanagementsystem\employeemanagementsystem"/>
+			<item value="D:\Shivani\TechnoElevate\Eclipse2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

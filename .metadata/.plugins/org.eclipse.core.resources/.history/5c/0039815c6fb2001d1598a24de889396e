@@ -1,0 +1,15 @@
+package basicprograms.revision;
+
+import java.util.List;
+
+public class Employee {
+
+	private int id;
+	private String name;
+	private long salary;
+	private String gendre;
+	private List<String> movies;
+	private String department;
+
+	
+}

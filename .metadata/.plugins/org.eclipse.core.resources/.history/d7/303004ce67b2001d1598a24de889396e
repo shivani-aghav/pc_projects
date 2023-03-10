@@ -1,0 +1,11 @@
+package basicprograms.revision;
+
+import java.util.stream.IntStream;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		IntStream.range(1, 5).map(a->a=(a*a)).forEach(System.out::println);
+	
+	}
+}

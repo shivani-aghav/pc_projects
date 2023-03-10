@@ -1,0 +1,13 @@
+package java_8.features;
+
+import java.text.DecimalFormat;
+
+public class Tp {
+
+	public static void main(String[] args) {
+		DecimalFormat chosenFormat = new DecimalFormat("#,###.##"); 
+        
+        double var = 14097867.02828; // we want 1,409,756,867 
+        System.out.println(chosenFormat.format(var)); 
+        }
+}

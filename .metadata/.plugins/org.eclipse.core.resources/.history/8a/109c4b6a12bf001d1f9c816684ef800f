@@ -1,0 +1,10 @@
+package string_concepts.mystring1;
+
+public class Concept2 {
+
+	public static void main(String[] args) {
+		String s = "java";
+		String i = s.intern();
+		System.err.println(i.equals(s));
+	}
+}

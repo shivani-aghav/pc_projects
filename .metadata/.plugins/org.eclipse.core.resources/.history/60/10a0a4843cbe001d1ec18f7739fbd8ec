@@ -1,0 +1,20 @@
+package lee_code;
+
+import java.util.Scanner;
+
+public class Reverse {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter any number");
+//		int x = sc.nextInt();
+		int x=321;
+		int tmp=x;
+		int i=0;
+		 while (tmp>0) {
+			i=tmp%10;
+			tmp=tmp/10;
+			System.out.println(i);
+		}
+	}
+}

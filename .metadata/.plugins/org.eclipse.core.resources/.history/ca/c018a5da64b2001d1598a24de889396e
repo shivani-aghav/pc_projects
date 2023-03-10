@@ -1,0 +1,21 @@
+package basicprograms.revision;
+
+import java.util.Arrays; 
+import java.util.List;
+
+public class ArrayProgram {
+
+	public static void main(String[] args) {
+		List<Employee> list = Arrays.asList(
+				new Employee(1, "Carol", 12000, "c@gmail.com", Arrays.asList("KGF", "Annabelle")),
+				new Employee(2, "Linda", 8000, "F", Arrays.asList("Pachadlela", "Conjuring")),
+				new Employee(3, "Neena", 34000, "c@gmail.com", Arrays.asList("Vedha", "Vikram")),
+				new Employee(4, "Jenny", 20000, "F", Arrays.asList("IT", "Nun")));
+
+		// list.stream().sorted(Comparator.comparing(Employee::getSalary).reversed()).forEach(System.out::println);
+//		list.stream().filter(a -> a.getMail().equalsIgnoreCase("F") && a.getSalary() < 10000)
+//				.forEach(System.out::println);
+		list.stream().sorted((a, b) ->(int) b.getSalary() -(int) a.getSalary()).forEach(System.out::println);
+	}
+
+}

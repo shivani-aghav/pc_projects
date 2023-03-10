@@ -1,0 +1,13 @@
+package java_8.features;
+
+public class Tp {
+
+	public static void main(String[] args) {
+		double d=23456.7765d;
+		 String str = String.valueOf(d);
+	        
+	        // Write your code here.
+	        String s=String.format("%.2f", str);
+	        System.out.println(s);
+	}
+}

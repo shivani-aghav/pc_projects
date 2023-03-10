@@ -1,0 +1,9 @@
+import java.util.stream.Stream;
+
+public class Sssss {
+
+	public static void main(String[] args) {
+		String s="shivani aghav";
+        Stream.of(s.split(" ")).map(t->t.substring(0,1).toUpperCase()+t.substring(1)+" ").forEach(System.out::println);
+	}
+}

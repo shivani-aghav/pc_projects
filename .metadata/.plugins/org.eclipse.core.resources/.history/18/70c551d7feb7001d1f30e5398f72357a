@@ -1,0 +1,23 @@
+package com.te.hibernate;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class DeleteData {
+	public static void main(String[] args) {
+		Configuration cf = new Configuration();
+		cf.configure("hibernate.cfg.xml");
+		SessionFactory factory = cf.buildSessionFactory();
+
+		Session session = factory.openSession();
+		Transaction tr = session.beginTransaction();
+		tr.begin();
+		Student s = session.get(Student.class, 109);
+		session.delete(s);
+		System.out.println(s);
+		tr.commit();
+		session.close();
+	}
+}
