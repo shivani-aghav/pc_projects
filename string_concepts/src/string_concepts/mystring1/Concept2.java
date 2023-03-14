@@ -3,6 +3,7 @@ package string_concepts.mystring1;
 public class Concept2 {
 
 	public static void main(String[] args) {
+		//intern()
 		String s = "java";
 		String i = s.intern();
 		System.err.println(i.hashCode() == s.hashCode());

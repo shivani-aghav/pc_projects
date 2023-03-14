@@ -18,9 +18,9 @@ public class Concept1 {
 		System.out.println("A".compareTo("B"));// -1
 		System.out.println("B".compareTo("A"));// 1
 		System.out.println("----------------------");
-		
-		//repeat()
-		String s="5".repeat(7);
+
+		// repeat()
+		String s = "5".repeat(7);
 		System.out.println(s);
 		System.out.println("----------------");
 
@@ -29,21 +29,24 @@ public class Concept1 {
 
 		System.out.println("ABC" + 1000 + 2000 + 3000);
 		System.out.println("----------------");
-		
+
 //		String s2=1+null+"null"; will throw error
-		
-		System.out.println("java"==new String("java"));//false
-		System.out.println("java"=="java");//true
+
+		System.out.println("java" == new String("java"));// false
+		System.out.println("java" == "java");// true
 		System.out.println("----------------");
-		
-		String s2="Java\tConcept\tOf\tThe\tDay".strip();
+
+		String s2 = "Java\tConcept\tOf\tThe\tDay".strip();
 		System.out.println(s2);
 		System.out.println("----------------");
 		
-		  String str1 = "Java";
-	         
-	        String str2 = new String("Java");
-	         
-	        System.out.println(str2.hashCode());
+		"Java\nConcept\nOf\nThe\nDay".lines().forEach(System.out::println);
+		System.out.println("----------------");
+
+		String str1 = "Java";
+
+		String str2 = new String("Java");
+
+		System.out.println(str2.hashCode());
 	}
 }
