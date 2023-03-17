@@ -1,0 +1,23 @@
+package string_concepts.mystring1;
+
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class MostRepetitive {
+	public static void main(String[] args) {
+		String s = "javaconceptoftheday";
+		char[] c = s.toCharArray();
+
+//       filter(e->e.getValue()).collect(Collectors.summarizingInt(Integer::intValue))
+//      ;
+       
+       
+		Map<String, List<String>> cs = Stream.of(s.split("")).collect(Collectors.groupingBy(t->t));
+		cs.entrySet().forEach(t->{
+			System.out.println(t.getKey()+" --"+t.getValue().size());
+		});;
+         
+	}
+}

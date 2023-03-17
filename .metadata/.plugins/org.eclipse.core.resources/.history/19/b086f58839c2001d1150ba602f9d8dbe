@@ -1,0 +1,24 @@
+package string_concepts.mystring1;
+
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+
+public class ReverseSentenceWordByWord {
+
+	public static void main(String[] args) {
+		
+		String s="Concept Of the Day";
+		
+//		Stream.of(s.split(" ")).map(t->new StringBuilder(s).reverse()).forEach(System.out::println);;
+		
+		Stream.of(s.split(" ")).reduce((t, u) -> u+" "+t).ifPresent(System.out::println);//reversed string without reversing each word
+		
+//		s.chars().mapToObj(c->c).reduce( "",(t, u) ->u+t,(s1+s2) -> s2+s1).
+		
+		String collect = IntStream.range(0, s.length()).boxed().sorted(Collections.reverseOrder()).map(t -> String.valueOf(s.charAt(t))).collect(Collectors.joining()); 
+		System.out.println(collect);
+	}
+}

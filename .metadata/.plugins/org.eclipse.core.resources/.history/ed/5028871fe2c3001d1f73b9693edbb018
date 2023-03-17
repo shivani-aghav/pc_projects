@@ -1,0 +1,23 @@
+package concepts;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class DrawingBook {
+
+	public static void main(String[] args) {
+		int n=6;
+		int p=2;
+		
+		Map<Integer, Integer> map = new HashMap<>();
+		   
+		int k=0;
+		while (k<n) {
+			map.put(k, k);
+			k++;
+		}
+		System.out.println(map);
+		
+		
+	}
+}

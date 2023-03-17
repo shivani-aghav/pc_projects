@@ -1,0 +1,13 @@
+package palti;
+
+public class Treeee {
+
+	
+	 String Treeee() {
+		return "";
+	}
+
+	public static void main(String[] args) {
+		
+	}
+}

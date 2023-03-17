@@ -11,5 +11,9 @@ public class Concept2 {
 		int[][] c[] = { { { 1 } } };
 
 		int[][] d[][] = { { { { 1 } } } };
+		int n=-100;
+		String s=String.valueOf(n);
+		
+		System.out.println(n==Integer.parseInt(s));
 	}
 }

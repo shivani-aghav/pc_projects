@@ -1,0 +1,8 @@
+package pattern;
+
+public class UltaTriangle2 {
+
+	public static void main(String[] args) {
+		
+	}
+}

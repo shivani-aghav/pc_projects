@@ -1,0 +1,11 @@
+package string_concepts.mystring1;
+
+import java.util.Collections;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+         String s="javaisduuuu";
+         s.chars().boxed().sorted(Collections.reverseOrder()).forEach(System.out::println);
+	}
+}

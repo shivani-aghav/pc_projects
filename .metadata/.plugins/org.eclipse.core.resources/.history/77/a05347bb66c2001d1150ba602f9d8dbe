@@ -1,0 +1,11 @@
+package pattern;
+//outer for loop is for rows and inner for loop is for columns
+public class Pyramid {
+
+	public static void main(String[] args) {
+		
+		for (int i = 0; i < args.length; i++) {
+			
+		}
+	}
+}

@@ -1,0 +1,12 @@
+package string_concepts.mystring1;
+
+import java.util.stream.Stream;
+
+//find duplicate words and their number of occurrences of them
+public class DuplicateWordsAndOccurrenece {
+
+	public static void main(String[] args) {
+		String s = "Bread butter and bread";
+		Stream.of(s.split(" ")).filter(t -> t.compareTo(t)==1).forEach(System.out::println);
+	}
+}

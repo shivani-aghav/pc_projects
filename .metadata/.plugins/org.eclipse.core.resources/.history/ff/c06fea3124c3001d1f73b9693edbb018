@@ -1,0 +1,20 @@
+package lee_code;
+
+public class Demo {
+
+	public static void main(String[] args) {
+	 
+	 
+	        Long i1 = 1281l;
+	 
+	        Long i2 = 1281l;
+	        System.out.println(i1 == i2);
+	        
+	        Long i3 = 128l;
+	        
+	        
+	        Long i4 = 128l;
+	 
+	        System.out.println(i3 == i4);
+	}
+}

@@ -1,0 +1,21 @@
+package string_concepts.mystring1;
+
+import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class MostRepetitive {
+	public static void main(String[] args) {
+		String s = "javaconceptoftheday";
+		char[] c = s.toCharArray();
+
+         Map<String, List<String>> map = Stream.of(s.split("")).collect(Collectors.groupingBy(t->t));
+         System.out.println(map);
+         Set<Entry<String, List<String>>> set = map.entrySet(); 
+         
+	}
+}

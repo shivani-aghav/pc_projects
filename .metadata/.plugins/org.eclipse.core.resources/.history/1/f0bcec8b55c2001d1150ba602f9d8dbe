@@ -1,0 +1,28 @@
+package lee_code;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.TreeSet;
+
+public class RemoveDuplicatesFromSortedArray {
+	private static int removeDuplicates(int[] nums) {
+		TreeSet<Integer> tree= new TreeSet<>();
+		for(int i =0;i<nums.length;i++){
+			tree.add(nums[i]);  
+		}
+		return 2;
+	}
+
+	public static void main(String[] args) {
+		int[] nums = {1,1,2}; 
+		int[] expectedNums = {1,2}; 
+
+		int k = removeDuplicates(nums);
+
+		assert k == expectedNums.length;
+		for (int i = 0; i < k; i++) {
+		    assert nums[i]==expectedNums[i];
+		}
+	}
+
+}
