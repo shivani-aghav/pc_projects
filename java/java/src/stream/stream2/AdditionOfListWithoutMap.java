@@ -1,0 +1,21 @@
+package stream.stream2;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class AdditionOfListWithoutMap {
+
+	public static void main(String[] args) {
+//		List<Integer> list =Arrays.asList(1,2,3,4);
+//		long sum = list.stream().collect(Collectors.summarizingInt(value -> value)).getSum();
+//		System.out.println(sum);
+		int a = 10;
+		int b = 12;
+		
+//		System.err.println(++b);
+		int res = --a + a++ - ++b;
+		System.out.println(res);
+	}
+}
