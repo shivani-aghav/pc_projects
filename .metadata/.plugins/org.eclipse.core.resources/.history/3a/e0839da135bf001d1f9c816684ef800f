@@ -1,5 +1,0 @@
-package string_concepts.mystring1;
-//find duplicate words and their number of occurrences of them
-public class DuplicateWordsAndOccurrenece {
-
-}

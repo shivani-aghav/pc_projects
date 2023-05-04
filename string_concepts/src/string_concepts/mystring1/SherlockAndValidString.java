@@ -13,6 +13,6 @@ public class SherlockAndValidString {
 			if (u.longValue()!=u.longValue()) {
 				System.out.println(t);
 			}
-		});;
+		});
 	}
 }

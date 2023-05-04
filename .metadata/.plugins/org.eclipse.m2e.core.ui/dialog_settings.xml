@@ -87,6 +87,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\anils\Downloads\mongodb"/>
 			<item value="C:\Users\anils\Downloads\mmcart_jasper (1)"/>
 			<item value="C:\Users\anils\Downloads\mmcart_jasper_reeport"/>
 			<item value="C:\Users\anils\Downloads\mmcart_jasper"/>

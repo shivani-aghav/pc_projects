@@ -12,5 +12,6 @@ public class MostRepetitive {
 				.sorted((o1, o2) -> (o2.getValue().size() - o1.getValue().size())).findFirst()
 				.ifPresent(x -> System.out.println(x.getKey() + " = " + x.getValue().size()));
 
+		
 	}
 }
