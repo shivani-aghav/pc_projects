@@ -15,5 +15,6 @@ public class ReverseSentenceWordByWord {
 		
 		String collect = IntStream.range(0, s.length()).boxed().sorted(Collections.reverseOrder()).map(t -> String.valueOf(s.charAt(t))).collect(Collectors.joining()); 
 		System.out.println(collect);
+		
 	}
 }
