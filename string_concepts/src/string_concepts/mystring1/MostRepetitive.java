@@ -6,7 +6,6 @@ import java.util.stream.Stream;
 public class MostRepetitive {
 	public static void main(String[] args) {
 		String s = "Java Concept Of The Day";
-		char[] c = s.toCharArray();
 
 		Stream.of(s.replace(" ", "").split("")).collect(Collectors.groupingBy(t -> t)).entrySet().stream()
 				.sorted((o1, o2) -> (o2.getValue().size() - o1.getValue().size())).findFirst()

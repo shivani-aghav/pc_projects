@@ -5,7 +5,7 @@ import java.util.Stack;
 public class ParenthesisChecker {
 
 	public static void main(String[] args) {
-		String s = "{[()}";
+		String s = "{[()]}";
 		Stack<Character> st = new Stack<>();
 		
 		for (int i = 0; i < s.length(); i++) {
@@ -24,7 +24,7 @@ public class ParenthesisChecker {
 		if (st.empty()) {
 			System.out.println("String is balanced");
 		}else {
-			System.out.println("not balanced");
+			System.out.println("String is not balanced");
 		}
 	}
 }

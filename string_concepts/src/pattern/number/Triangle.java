@@ -50,5 +50,16 @@ public class Triangle {
 		}
 
 		System.out.println("------------------3-");
+		
+		for (int i = 1; i <= n; i++) {
+			int s = n;
+			for (int j = 1; j <= i; j++) {
+				System.out.print(s + " ");
+				s--;
+			}
+			System.out.println();
+		}
+		
+		System.out.println("------------------4-");
 	}
 }
